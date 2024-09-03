@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "testingsynccicd",
+      "Alias": "testingsynccicd",
+      "Id": "8a054920-c7a9-40a9-a26b-7edfcbd7c10c",
+      "Workspaces": [
+        {
+          "Id": "f6e5be02-ac6f-4a11-8e71-20c98b6557a8",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://testingsynccicd.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
